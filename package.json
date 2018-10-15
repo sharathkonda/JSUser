@@ -1,0 +1,17 @@
+{
+  "name": "jsuser",
+  "version": "0.0.01",
+  "description": "jsuser is meant for acceptance tests while the automation framework resides in jscommonkit",
+  "author": "jsuser",
+  "license": "jsuser",
+  "scripts": {
+    "test": "protractor ./node_modules/jsbarefw/protractor.conf.js --cucumberOpts.tags='not (@ignore or @obsolete) and @pro'"
+  },
+  "dependencies": {
+    "jsbarefw": "git+git@github.com:sharathkonda/JSCommonKit.git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sharathkonda/JSUser.git"
+  }
+}
