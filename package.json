@@ -8,7 +8,7 @@
     "test": "protractor ./node_modules/jsbarefw/protractor.conf.js --cucumberOpts.tags='not (@ignore or @obsolete) and @pro'"
   },
   "dependencies": {
-    "jsbarefw": "git+git@github.com:sharathkonda/JSCommonKit.git"
+    "jsbarefw": "git+https://github.com/sharathkonda/JSUser.git"
   },
   "repository": {
     "type": "git",
